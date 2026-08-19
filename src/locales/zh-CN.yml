@@ -1,0 +1,32 @@
+game:
+  usage: "用法错误！正确用法：{0}"
+  start: "比赛开始！本次共 {0} 回合～"
+  stop: "比赛已停止"
+  notStarted: "比赛尚未开始，请输入 {0} 开始 开始游戏"
+  apiError: "API请求失败，请稍后再试"
+  correct: "答对啦！你获得 {0} 分～"
+  wrong: "答错啦～正确答案是：{0}，你不得分"
+  roundEnd: "第 {0} 回合结束！剩余回合：{1}"
+  gameEnd: "比赛结束！"
+  rankTitle: "本局排行榜"
+  rankEmpty: "暂无参与记录～"
+  disabled: "该功能已关闭，请联系管理员开启"
+  autoStop: "太久没人玩啦，比赛自动结束～"
+
+guessNumber:
+  outOfRange: "数字超出当前范围 [{0}-{1}]，请重新输入！"
+  tooSmall: "猜小啦！当前范围更新为 [{0}-{1}]"
+  tooBig: "猜大啦！当前范围更新为 [{0}-{1}]"
+  correctDetail: "恭喜你猜中数字！\n猜中者扣 {0} 分，其他玩家各加 {1} 分"
+
+turtleSoup:
+  story: "汤面：{0}\n发送你的问题或猜测，主持人会回答你。\n剩余提问次数：{1}"
+  questionHint: "发送你的问题或猜测..."
+  guessCorrect: "恭喜你猜中了！汤底：{0}"
+  noMoreQuestions: "提问次数已用完！汤底：{0}"
+  aiGenerationFailed: "AI生成海龟汤失败，请稍后重试"
+  generating: "正在生成海龟汤，请稍候..."
+
+common:
+  gameRunning: "当前已有游戏在运行中，请先结束当前游戏后再开始新游戏！"
+  paramError: "参数错误！请检查输入格式"

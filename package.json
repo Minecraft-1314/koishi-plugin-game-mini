@@ -1,0 +1,50 @@
+{
+  "name": "koishi-plugin-game-mini",
+  "version": "0.4.1",
+  "description": "Koishi多功能小游戏合集：猜数字、猜王者英雄、成语接龙、算24点、海龟汤、性格推理",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "locales"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "koishi",
+    "koishi-plugin",
+    "game",
+    "mini-game",
+    "猜数字",
+    "猜王者英雄",
+    "王者荣耀",
+    "成语接龙",
+    "算24点",
+    "24点",
+    "海龟汤",
+    "性格推理",
+    "小游戏"
+  ],
+  "author": "Minecraft-1314",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Minecraft-1314/koishi-plugin-game-mini.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Minecraft-1314/koishi-plugin-game-mini/issues"
+  },
+  "homepage": "https://github.com/Minecraft-1314/koishi-plugin-game-mini#readme",
+  "peerDependencies": {
+    "koishi": "^4.18.0"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "yaml": "^2.6.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "typescript": "^5.7.2"
+  }
+}
